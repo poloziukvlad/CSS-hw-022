@@ -21,8 +21,9 @@
     border-radius: 20px;
 
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
 }
 
 .box {
@@ -31,11 +32,15 @@
 
     background-image: linear-gradient(to top left, green,black);
     border-radius: 20px;
+    margin:0 0 20px;
 }
 
-.box:nth-child(1) {
-    flex-grow: 1;
-}
+.box:nth-child(3n-1){
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+
 
 @media screen and (max-width:600px) {
     .flex-container {
