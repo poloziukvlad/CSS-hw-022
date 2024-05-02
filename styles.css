@@ -8,7 +8,7 @@
     background-image: linear-gradient(to bottom right, yellow,red);
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -41,4 +41,24 @@
     .flex-container {
         flex-direction: column;
     }
+}
+
+.flex-container2 {
+    width: 800px;
+    height: 800px;
+    
+    background-image: linear-gradient(to bottom left, blue,white);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.element {
+    width: 200px;
+    height: 200px;
+
+    background-image: linear-gradient(to top left, rgb(214, 28, 186),rgb(39, 35, 35));
+    border-radius: 20px;
 }
