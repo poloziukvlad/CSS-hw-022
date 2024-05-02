@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, yellow,red);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex-container {
+    width: 800px;
+    height: 800px;
+    
+    background-image: linear-gradient(to bottom left, blue,white);
+    border-radius: 20px;
+
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+
+    background-image: linear-gradient(to top left, green,black);
+    border-radius: 20px;
+}
